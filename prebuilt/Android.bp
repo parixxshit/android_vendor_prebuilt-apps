@@ -3,7 +3,7 @@ android_app_import {
         apk: "MiXplorer/MiXplorer.apk",
         presigned: true,
         dex_preopt: {
-                enabled: false,
+                enabled: true,
         },
 }
 
@@ -12,6 +12,6 @@ android_app_import {
         apk: "QPGallery/QPGallery.apk",
         presigned: true,
         dex_preopt: {
-                enabled: false,
+                enabled: true,
         },
 }
