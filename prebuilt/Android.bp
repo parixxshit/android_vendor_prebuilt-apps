@@ -1,0 +1,17 @@
+android_app_import {
+        name: "MiXplorer",
+        apk: "MiXplorer/MiXplorer.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
+
+android_app_import {
+        name: "QPGallery",
+        apk: "QPGallery/QPGallery.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
