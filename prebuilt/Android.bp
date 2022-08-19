@@ -8,6 +8,15 @@ android_app_import {
 }
 
 android_app_import {
+        name: "Metro",
+        apk: "Metro/Metro.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: true,
+        },
+}
+
+android_app_import {
         name: "MiXplorer",
         apk: "MiXplorer/MiXplorer.apk",
         presigned: true,
