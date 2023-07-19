@@ -1,35 +1,9 @@
 android_app_import {
-        name: "BlackHole",
-        apk: "BlackHole/BlackHole.apk",
-        presigned: true,
-        dex_preopt: {
-                enabled: true,
-        },
-}
-
-android_app_import {
-        name: "Metro",
-        apk: "Metro/Metro.apk",
-        presigned: true,
-        dex_preopt: {
-                enabled: true,
-        },
-}
-
-android_app_import {
         name: "MiXplorer",
         apk: "MiXplorer/MiXplorer.apk",
         presigned: true,
         dex_preopt: {
-                enabled: true,
+                enabled: false,
         },
-}
-
-android_app_import {
-        name: "QPGallery",
-        apk: "QPGallery/QPGallery.apk",
-        presigned: true,
-        dex_preopt: {
-                enabled: true,
-        },
+        product_specific: true,
 }

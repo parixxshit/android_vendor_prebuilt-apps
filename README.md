@@ -1,10 +1,12 @@
-## Prebuilt APKs ##
-* Clone this repository in `vendor/prebuilt-apps` in your ROM's Sourcecode.
- 
+## Prebuilt APKs
+
+- Clone this repository in `vendor/prebuilt-apps` in your ROM's Sourcecode.
+
 ```
-git clone https://github.com/Deepak5310/android_vendor_prebuilt-apps.git vendor/prebuilt-apps
+git clone https://github.com/parixxshit/android_vendor_prebuilt-apps.git vendor/prebuilt-apps
 ```
-* Inherit Prebuilt APKs Using these lines in your Device Makefile.
+
+- Inherit Prebuilt APKs Using these lines in your Device Makefile.
 
 ```
 # Prebuilt APKs
